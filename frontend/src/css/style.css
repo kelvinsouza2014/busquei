@@ -4,19 +4,23 @@
   box-sizing: border-box;
 }
 
-/* COLOR PALETTE */
 :root {
+  /* COLOR PALETTE */
   --color_white: #FFFFFF;
   --color_black: #000000;
   --color_purple: #5936A4;
   --color_orange: #FC7E00;
   --color_yellow_star: #FFBB00;
+  /* COLOR PALETTE */
+
+  /* FONTS */
+  --default_font: 'Roboto', 'poppins', 'lato', sans-serif;
+  /* FONTS */
 }
-/* COLOR PALETTE */
 
 /* GLOBAL FORMATTING */
 html {
-  font-family: 'Roboto', 'poppins', 'lato', sans-serif;
+  font-family: var(--default_font);
   font-size: 16px;
   font-weight: 400;
   font-style: normal;
