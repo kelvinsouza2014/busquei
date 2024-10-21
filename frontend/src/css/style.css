@@ -28,6 +28,11 @@ html {
 }
 /* GLOBAL FORMATTING */
 
+/* header {
+  width: 100%;
+  position: fixed;
+} */
+
 .container__nav__menu {
   display: flex;
   align-items: center;
@@ -96,3 +101,44 @@ html {
   text-decoration: none;
   color: var(--color_white);
 }
+
+.box__nav__categories {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color_orange);
+  padding: 15px 0;
+}
+
+.box__nav__categories li {
+  font-size: 1.2rem;
+  color: var(--color_white);
+  cursor: pointer;
+}
+
+.box__nav__categories li:hover {
+  color: var(--color_purple)
+}
+
+.li__all__categories {
+  display: flex;
+  color: var(--color_white);
+}
+
+.li__all__categories i {
+  margin-right: 10px;
+}
+
+.li__all__categories i {
+  margin-right: 10px;
+}
+
+.li__all__categories:hover .all__categories {
+  display: block;
+}
+
+.all__categories {
+  display: none;
+  padding: 10px;
+  background-color: var(--color_orange);
+}
+
