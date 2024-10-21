@@ -33,6 +33,11 @@ html {
   position: fixed;
 } */
 
+main {
+width: 1200px;
+margin: 0 auto;
+}
+
 .container__nav__menu {
   display: flex;
   align-items: center;
@@ -150,3 +155,48 @@ html {
   background-color: var(--color_orange);
 }
 
+.container__store__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.box__store__cards {
+  /* position: relative; */
+  width: 30%;
+  margin: 0 1%;
+}
+
+.bouding__box__favorite {
+  position: relative;
+  width: 310px;
+}
+
+.icon__favorite {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon__favorite i {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 5px 5px 5px;
+  border-radius: 20px;
+  color: var(--color_purple);
+  background-color: var(--color_orange);
+}
+
+.store__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.store__categorie {
+  font-weight: 500;
+}
+
+.icon__stars {
+  color: var(--color_yellow_star);
+}
