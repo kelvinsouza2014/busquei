@@ -29,6 +29,10 @@ html {
 }
 /* GLOBAL FORMATTING */
 
+/* body {
+  position: relative;
+} */
+
 main {
 width: 1200px;
 margin: 0 auto;
@@ -223,4 +227,19 @@ margin: 0 auto;
 
 .box__addres p {
   font-size: 0.9rem;
+}
+
+.box__chatbot {
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  cursor: pointer;
+}
+
+.box__chatbot i {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 40px;
+  color: var(--color_purple);
+  background-color: var(--color_orange);
 }
