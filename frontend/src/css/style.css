@@ -97,7 +97,7 @@ margin: 0 auto 50px;
   margin-right: 0;
 }
 
-.box__nav__links li, a {
+.box__nav__links li, .box__nav__links a {
   text-decoration: none;
   color: var(--color_white);
 }
@@ -162,6 +162,11 @@ margin: 0 auto 50px;
   justify-content: center;
   width: 30%;
   margin: 25px 0.5%;
+}
+
+.box__store__cards a {
+  text-decoration: none;
+  color: var(--color_black);
 }
 
 .bouding__box__favorite {
