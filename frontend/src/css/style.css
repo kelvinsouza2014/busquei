@@ -193,6 +193,11 @@ margin: 0 auto 50px;
   color: var(--color_purple);
   background-color: var(--color_orange);
 }
+  
+  .icon__favorite i:hover {
+    color: var(--color_orange);
+    background-color: var(--color_purple);
+}
 
 .box__store__text {
   margin-bottom: 10px;
