@@ -29,10 +29,6 @@ html {
 }
 /* GLOBAL FORMATTING */
 
-/* body {
-  position: relative;
-} */
-
 main {
 width: 1200px;
 margin: 0 auto;
@@ -49,7 +45,6 @@ margin: 0 auto;
 .box__logo img {
   width: auto;
   height: 60px;
-  /* margin-right: 40px; */
 }
 
 .box__search__and__links {
@@ -81,7 +76,6 @@ margin: 0 auto;
   margin-right: 20px;
   padding-left: 40px;
   border-radius: 20px;
-  /* margin: auto 0; */
 }
 
 .container__nav__links {
@@ -160,11 +154,9 @@ margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* margin: 50px 0; */
 }
 
 .box__store__cards {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   width: 30%;
