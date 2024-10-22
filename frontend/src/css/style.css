@@ -257,8 +257,8 @@ margin: 0 auto 50px;
 
 .box__chatbot i {
   font-size: 30px;
-  padding: 20px;
-  border-radius: 40px;
+  padding: 22px 20px;
+  border-radius: 60px;
   color: var(--color_purple);
   background-color: var(--color_orange);
 }
