@@ -9,6 +9,7 @@
   --color_white: #FFFFFF;
   --color_black: #000000;
   --color_purple: #5936A4;
+  --color_light_purple: #200a4fb0;
   --color_orange: #FC7E00;
   --color_yellow_star: #FFBB00;
   --color_light_grey: #6C6C6C;
@@ -31,7 +32,7 @@ html {
 
 main {
 width: 1200px;
-margin: 0 auto;
+margin: 0 auto 50px;
 }
 
 .container__nav__menu {
@@ -234,4 +235,17 @@ margin: 0 auto;
   border-radius: 40px;
   color: var(--color_purple);
   background-color: var(--color_orange);
+}
+
+.box__footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  color: var(--color_white);
+  background-color: var(--color_light_purple)
+}
+
+.box__footer__copyright p {
+  font-size: 0.9rem;
 }
